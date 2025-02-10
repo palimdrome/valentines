@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Boogaloo", serif;
+    text-align: center;
+    color: #F35AA2;
+    background-color: #ffebee;
+    font-size: 28px;
+}
+
+h1 {
+    max-width: 90%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+.buttons {
+    margin-top: 20px;
+}
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#yes {
+    background-color: #F35AA2;
+    font-family: "Boogaloo", serif;
+    color: white;
+}
+#no {
+    background-color: #2C93CF;
+    font-family: "Boogaloo", serif;
+    color: white;
+}
+.cute-gif {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
